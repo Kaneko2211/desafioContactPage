@@ -12,43 +12,64 @@
 </head>
 <body>
     <main>
-        <div id="container-m">
+        <section id="section">
             <img src="img/Logo@2x.png" alt="">
-            <h2>Interested in our business pricing?</h2>
+            <h1>Interested in our business pricing?</h1>
             <p id="estilo-fill">Fill out the form to view details and we’ll contact you as soon as possible.</p>
 
             
-                <form action="">
-                    <div id="container-for">
+                <form action="" class="formulario">
+                    
+
+                        <div class="form-group">
+                            <div class="form-control">
+                                <label  class ="estilo-input"for="Name">Name</label>
+                                <input type="text" id="Name" name="Name"
+                                placeholder="Ethan Johnson">
+                                <br>
+                            </div>
+                            <div class="form-control">
+                                <label class ="estilo-input" for="CompanyE">Company Email</label>
+                                <input type="text" id="CompanyE" name="CompanyE"
+                                placeholder="ethan@johnson.com">
+                                <br>
+                            </div>
+                        </div>
+                        
+
+                        <div class="form-group">
+                            <div class="form-control">
+                                <label class ="estilo-input" for="CompanyS">Company Size</label>
+                                <input type="number" id="CompanyS" name="CompanyS"
+                                value="" placeholder="50-100 employees">
+                                <br>
+                            </div>
+                            <div class="form-control">
+                                <label class ="estilo-input" for="Subject">Subject</label>
+                                <input type="text" id="Subject" name="Subject"
+                                placeholder="Building Landing pages"
+                                >
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="form-control">
+                            <label class ="estilo-input" for="Message">Message</label>
+                            <textarea id="miTextArea" type="tel" name="Message"
+                            >50-100 employees
+                            </textarea>
+                            <br>
+                        </div>
+                        
+                        <div class="form-control">
+                            <button><p class="estilo-bu">
+                            Contact Sales</p></button>
+                        </div>
 
                     
-                    <label  class ="estilo-input"for="Name">Name</label>
-                    <input type="text" id="Name" name="Name"
-                    placeholder="Ethan Johnson">
-                    <br>
-                    <label class ="estilo-input" for="CompanyE">Company Email</label>
-                    <input type="text" id="CompanyE" name="CompanyE"
-                    placeholder="ethan@johnson.com">
-                    <br>
-                    <label class ="estilo-input" for="CompanyS">Company Size</label>
-                    <input type="number" id="CompanyS" name="CompanyS"
-                    value="" placeholder="50-100 employees">
-                    <br>
-                    <label class ="estilo-input" for="Subject">Subject</label>
-                    <input type="text" id="Subject" name="Subject"
-                    placeholder="Building Landing pages"
-                    >
-                    <br>
-                    <label class ="estilo-input" for="Message">Message</label>
-                    <textarea id="miTextArea" type="tel" name="Message"
-                    >50-100 employees
-                    </textarea>
-                    <br>
-                    <button><p class="estilo-bu">Contact Sales</p></button>
-                    </div>
                 </form>
             
-        </div>
+        </section>
     </main>
 </body>
 </html>
